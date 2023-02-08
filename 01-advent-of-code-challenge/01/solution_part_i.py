@@ -1,4 +1,4 @@
-with open('sample.in') as file:
+with open('advent-of-code-challenge-VazMF/01-advent-of-code-challenge/01/sample.in') as file:
    calories = [i for i in file.read().strip().split('\n')]
 
 max = 0
