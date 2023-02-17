@@ -1,4 +1,4 @@
-with open('01-advent-of-code-challenge/02/sample.int', 'r') as file:
+with open('01-advent-of-code-challenge/02/sample.in', 'r') as file:
   lines = file.readlines()
   cheats = [entry.strip() for entry in lines]
 

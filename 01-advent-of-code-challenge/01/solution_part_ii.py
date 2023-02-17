@@ -1,4 +1,4 @@
-with open('01-advent-of-code-challenge/01/day2.in') as file:
+with open('01-advent-of-code-challenge/01/sample.in') as file:
    calories = [i for i in file.read().strip().split('\n')]
 
 larger = []
