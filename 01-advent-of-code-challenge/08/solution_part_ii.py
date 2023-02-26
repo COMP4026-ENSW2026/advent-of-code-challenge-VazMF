@@ -26,4 +26,4 @@ for i in range(1, trees.shape[0] - 1):
     routes = [row[j-1::-1], row[j+1:], column[i-1::-1], column[i+1:]]
     scenic[i,j] = np.prod(list(map(calculate_scenic_score, routes)))
 
-print(f'A maioor pontuação é {np.max(scenic)}.')    
+print(f'A maior pontuação é {np.max(scenic)}.')    
